@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "hoarfrostdeeps:item/amogus"
+    "layer0": "hoarfrost-deeps:item/amogus"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "hoarfrostdeeps:block/amogus_block"
+    "all": "hoarfrost-deeps:block/amogus_block"
   }
 }
