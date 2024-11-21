@@ -1,5 +1,7 @@
 package net.akdrer.hoarfrostdeeps;
 
+import net.akdrer.hoarfrostdeeps.block.ModBlocks;
+import net.akdrer.hoarfrostdeeps.item.ModItemGroups;
 import net.akdrer.hoarfrostdeeps.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,7 +14,9 @@ public class HoarfrostDeeps implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 
+		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
 	}
 }
